@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Export API Endpoints</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+        .endpoint {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .endpoint h2 {
+            margin: 0 0 10px;
+            color: #007bff;
+        }
+        .endpoint p {
+            margin: 5px 0;
+        }
+        code {
+            background: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Canvas Export API Endpoints</h1>
+    <h2>The POST requests must be done through postmen</h2>
+    
+    <div class="endpoint">
+        <h2>1. Create Canvas</h2>
+        <p><strong>Endpoint:</strong> <code>/api/create-canvas</code></p>
+        <p><strong>Method:</strong> POST</p>
+        <p><strong>Description:</strong> Use this endpoint to create a new canvas. Provide canvas data in the request body.</p>
+    </div>
+    
+    <div class="endpoint">
+        <h2>2. Get Canvas Data</h2>
+        <p><strong>Endpoint:</strong> <code>/api/get-canvas</code></p>
+        <p><strong>Method:</strong> GET</p>
+        <p><strong>Description:</strong> Retrieve the canvas data created earlier.</p>
+    </div>
+
+    <div class="endpoint">
+        <h2>3. Get Elements Data</h2>
+        <p><strong>Endpoint:</strong> <code>/api/elements</code></p>
+        <p><strong>Method:</strong> GET</p>
+        <p><strong>Description:</strong> Retrieve the canvas elements created</p>
+    </div>
+    
+    <div class="endpoint">
+        <h2>4. Add Circle</h2>
+        <p><strong>Endpoint:</strong> <code>/api/add-circle</code></p>
+        <p><strong>Method:</strong> POST</p>
+        <p><strong>Description:</strong> Add a circle to the canvas. Provide circle parameters in the request body.</p>
+    </div>
+    
+    <div class="endpoint">
+        <h2>5. Add Text</h2>
+        <p><strong>Endpoint:</strong> <code>/api/add-text</code></p>
+        <p><strong>Method:</strong> POST</p>
+        <p><strong>Description:</strong> Add text to the canvas. Provide text parameters in the request body.</p>
+    </div>
+    
+    <div class="endpoint">
+        <h2>6. Add Line</h2>
+        <p><strong>Endpoint:</strong> <code>/api/add-line</code></p>
+        <p><strong>Method:</strong> POST</p>
+        <p><strong>Description:</strong> Add a line to the canvas. Provide line parameters in the request body.</p>
+    </div>
+    
+    <div class="endpoint">
+        <h2>7. Add Rectangle</h2>
+        <p><strong>Endpoint:</strong> <code>/api/add-rectangle</code></p>
+        <p><strong>Method:</strong> POST</p>
+        <p><strong>Description:</strong> Add a rectangle to the canvas. Provide rectangle parameters in the request body.</p>
+    </div>
+    
+    <div class="endpoint">
+        <h2>8. Add Triangle</h2>
+        <p><strong>Endpoint:</strong> <code>/api/add-triangle</code></p>
+        <p><strong>Method:</strong> POST</p>
+        <p><strong>Description:</strong> Add a triangle to the canvas. Provide triangle parameters in the request body.</p>
+    </div>
+    
+    <div class="endpoint">
+        <h2>9. Export Canvas (POST)</h2>
+        <p><strong>Endpoint:</strong> <code>/api/export</code></p>
+        <p><strong>Method:</strong> POST</p>
+        <p><strong>Description:</strong> Export the canvas as an HTML file. Use this endpoint first to prepare the export data.</p>
+    </div>
+    
+    <div class="endpoint">
+        <h2>10. Export Canvas (GET)</h2>
+        <p><strong>Endpoint:</strong> <code>/api/export</code></p>
+        <p><strong>Method:</strong> GET</p>
+        <p><strong>Description:</strong> Download the exported HTML file.</p>
+    </div>
+</body>
+</html>
