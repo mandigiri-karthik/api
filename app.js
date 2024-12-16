@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Root route to serve a welcome page
 app.get('/', (req, res) => {
-    res.send('<h1>Welcome to the Canvas API!</h1><p>Use /api/create-canvas to create a canvas and /api/get-canvas to retrieve it.Test</p>');
+    res.send('<h1>Welcome to the Canvas API!</h1>');
 });
 
 // Use the canvas routes
