@@ -13,6 +13,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'endpoints.html'));
 });
 
+app.get('/examples',(req,res)=>{
+    res.sendFile(path.join(__dirname,'public','Examples.html'))
+})
+
 // Use the canvas routes
 app.use('/api', canvasRoutes);
 // app.use('/api', exportRoutes);
