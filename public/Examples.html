@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas API Example Requests</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        pre {
+            background-color: #ececec;
+            padding: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .example {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+        .example h3 {
+            margin-top: 0;
+            font-size: 18px;
+            color: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Canvas API Example Requests</h1>
+
+        <div class="example">
+            <h3>Circle Example</h3>
+            <pre>
+{
+  "type": "circle",
+  "x": 100,
+  "y": 100,
+  "radius": 50,
+  "color": "red"
+}
+            </pre>
+        </div>
+
+        <div class="example">
+            <h3>Text Example</h3>
+            <pre>
+{
+  "type": "text",
+  "x": 50,
+  "y": 350,
+  "text": "Hello Canvas!",
+  "fontSize": 20,
+  "color": "black"
+}
+            </pre>
+        </div>
+
+        <div class="example">
+            <h3>Triangle Example</h3>
+            <pre>
+{
+  "type": "triangle",
+  "x1": 100,
+  "y1": 50,
+  "x2": 200,
+  "y2": 150,
+  "x3": 50,
+  "y3": 150,
+  "color": "green"
+}
+            </pre>
+        </div>
+
+        <div class="example">
+            <h3>Line Example</h3>
+            <pre>
+{
+  "type": "line",
+  "x1": 100,
+  "y1": 50,
+  "x2": 200,
+  "y2": 150,
+  "color": "green"
+}
+            </pre>
+        </div>
+
+        <div class="example">
+            <h3>Rectangle Example</h3>
+            <pre>
+{
+  "type": "rectangle",
+  "x": 100,
+  "y": 50,
+  "width": 150,
+  "height": 75,
+  "color": "red"
+}
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
