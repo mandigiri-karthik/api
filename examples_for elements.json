@@ -1,0 +1,42 @@
+[{
+    "type": "circle",
+    "x": 100,
+    "y": 100,
+    "radius": 50,
+    "color": "red"
+  },  
+  {
+    "type": "text",
+    "x": 50,
+    "y": 350,
+    "text": "Hello Canvas!",
+    "fontSize": 20,
+    "color": "black"
+  },
+  {
+    "type": "triangle",
+    "x1": 100,
+    "y1": 50,
+    "x2": 200,
+    "y2": 150,
+    "x3": 50,
+    "y3": 150,
+    "color": "green"
+  },
+  {
+    "type": "line",
+    "x1": 100,
+    "y1": 50,
+    "x2": 200,
+    "y2": 150,
+    "color": "green"
+  },
+  {
+    "type": "rectangle",
+    "x": 100,
+    "y": 50,
+    "width": 150,
+    "height": 75,
+    "color": "red"
+  }
+]
